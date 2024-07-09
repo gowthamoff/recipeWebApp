@@ -5,14 +5,15 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #d5cef7;
+  background-color: #EEEEEE;
 }
 .container {
   /* margin: 5px; */
-  background-color: #a6b1e1;
+  background-color: #76ABAE;
   font-size: 16px;
   padding: 1em 1em;
   width: 90vw;
+  transition: 0.4s;
   height: 100vh;
   overflow: auto;
   max-width: 32em;
@@ -25,21 +26,25 @@ body {
 .search-container {
   width: 100%;
   display: grid;
+  transition: 0.4s;
+
   grid-template-columns: 9fr 3fr;
   gap: 1.2em;
 }
 .search-container input {
   font-size: 1em;
   padding: 0.6em;
+  background-color: #EEEEEE;
   border: none;
   outline: none;
   border-bottom: 2px solid #202030;
 }
 .search-container button {
   font-size: 1em;
-  background-color: #b387fb;
+  background-color: #31363F;
   border: none;
   font-weight: 600;
+  color: #fff;
   border-radius: 0.3em;
 }
 img {
@@ -48,8 +53,9 @@ img {
   margin: 1.8em auto 0 auto;
 }
 .details {
-  background-color: #dcd6f7;
+  background-color: #31363F;
   position: relative;
+  color: #fff;
   margin: -4.3em 0 0 0;
   text-align: center;
   padding: 0.6em 0;
@@ -67,15 +73,17 @@ img {
   position: relative;
   /* left: 50%; */
   padding: 0.9em 0.6em;
-  background-color: #b387fb;
+  background-color: #31363F;
+  transition: 0.4s;
   border: none;
+  color: #fff;
   top: 1.5em;
   border-radius: 0.3em;
   font-weight: 600;
 }
 #recipe {
   position: absolute;
-  background-color: #a6b1e1;
+  background-color: #76ABAE;
   min-height: 100%;
   width: 100%;
   top: 0;
@@ -95,8 +103,9 @@ img {
   font-size: 1em;
   position: relative;
   width: 1.8em;
+  color: #fff;
   height: 1.8em;
-  background-color: #678df4;
+  background-color: #31363F;
   border: none;
   top: 1.2em;
   left: 90%;
