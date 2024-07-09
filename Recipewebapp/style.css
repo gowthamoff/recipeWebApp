@@ -5,11 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 .container {
   /* margin: 5px; */
-  background-color: #76ABAE;
+  background-color: #76abae;
   font-size: 16px;
   padding: 1em 1em;
   width: 90vw;
@@ -34,14 +34,14 @@ body {
 .search-container input {
   font-size: 1em;
   padding: 0.6em;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border: none;
   outline: none;
   border-bottom: 2px solid #202030;
 }
 .search-container button {
   font-size: 1em;
-  background-color: #31363F;
+  background-color: #31363f;
   border: none;
   font-weight: 600;
   color: #fff;
@@ -53,7 +53,7 @@ img {
   margin: 1.8em auto 0 auto;
 }
 .details {
-  background-color: #31363F;
+  background-color: #31363f;
   position: relative;
   color: #fff;
   margin: -4.3em 0 0 0;
@@ -73,7 +73,7 @@ img {
   position: relative;
   /* left: 50%; */
   padding: 0.9em 0.6em;
-  background-color: #31363F;
+  background-color: #31363f;
   transition: 0.4s;
   border: none;
   color: #fff;
@@ -83,7 +83,7 @@ img {
 }
 #recipe {
   position: absolute;
-  background-color: #76ABAE;
+  background-color: #76abae;
   min-height: 100%;
   width: 100%;
   top: 0;
@@ -105,7 +105,7 @@ img {
   width: 1.8em;
   color: #fff;
   height: 1.8em;
-  background-color: #31363F;
+  background-color: #31363f;
   border: none;
   top: 1.2em;
   left: 90%;
