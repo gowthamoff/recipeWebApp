@@ -1,4 +1,14 @@
 
+# Recipe Web App
+
+Used to get different types of food recipes and their ingredients. Steps to make the food and measurements will be provided using the MealDB API.
+
+
+
+## Demo
+
+
+https://gowthamoff.github.io/recipeWebApp/Recipewebapp/index.html
 ## Run Locally
 
 Clone the project
